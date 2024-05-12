@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ca94394.css",
+    "main.js": "/static/js/main.42dd8804.js",
+    "static/media/back.jpeg": "/static/media/back.335f09a092643c53530e.jpeg",
+    "static/media/web.jpeg": "/static/media/web.2dd0ecbc60f7ba11dc65.jpeg",
+    "static/media/cctv.jpeg": "/static/media/cctv.e81f9e9e7157ea17c28c.jpeg",
+    "static/media/security.jpeg": "/static/media/security.f7e6638e5fda33240825.jpeg",
+    "static/media/os.jpeg": "/static/media/os.c7bf03e52b152da21a7d.jpeg",
+    "static/media/support.jpeg": "/static/media/support.acded7d2ac4c0d092956.jpeg",
+    "static/media/soft.jpeg": "/static/media/soft.5bb1b1755f439f09ecc9.jpeg",
+    "static/media/hacker.jpeg": "/static/media/hacker.ab327f60239b39a994a5.jpeg",
+    "static/media/linux.jpeg": "/static/media/linux.79ab3f5f4be3f69b22bc.jpeg",
+    "static/media/networker.jpeg": "/static/media/networker.82abc4d5529189fed21e.jpeg",
+    "static/media/boldhead.jpeg": "/static/media/boldhead.6923eb9a0c394441abfb.jpeg",
+    "static/media/pp.jpeg": "/static/media/pp.8ef6c0d244208c1f82e4.jpeg",
+    "static/media/grad.jpeg": "/static/media/grad.af87270e6e2db267f2bc.jpeg",
+    "static/media/message.jpeg": "/static/media/message.b43eed50122a68f74c84.jpeg",
+    "index.html": "/index.html",
+    "main.6ca94394.css.map": "/static/css/main.6ca94394.css.map",
+    "main.42dd8804.js.map": "/static/js/main.42dd8804.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ca94394.css",
+    "static/js/main.42dd8804.js"
+  ]
+}
