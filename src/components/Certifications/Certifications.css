@@ -1,0 +1,51 @@
+.certificates{
+    margin: 80px auto;
+    padding: 0 80px ;
+    position: relative;
+}
+
+.slider img{
+    height: 300px;
+    width: 500px;
+}
+.slider ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.slider ul h3{
+    text-align: center;
+    color: greenyellow;
+}
+span {
+    text-align: center;
+}
+.slider ul li{
+    list-style: none;
+    padding: 20px;
+    width: 25%;
+}
+.slide{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.slide img{
+    border-radius: 20px ;
+    border: solid greenyellow;
+    justify-content: space-between;
+}
+/************************************MEDIA QUERY*********************************/
+@media (max-width:800px) {
+.certificates{
+    padding: 0 40px;
+}
+.slider img{
+    width: 50px;
+    border: 3px;
+    flex-direction: column;
+}
+.slide{
+    padding: 10px;
+}
+}
