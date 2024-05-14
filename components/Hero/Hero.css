@@ -1,0 +1,72 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url(../../Assets/back.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 40px;
+}
+
+.btn img {
+    height: 10px;
+    width: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.change {
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 20px;
+    /* Adds padding for better clickability */
+    cursor: pointer;
+    /* Indicates it's clickable */
+    margin-top: 20px;
+    /* Adds space above the button */
+    margin-bottom: 20px;
+    /* Adds space below the button */
+}
+
+.change:active {
+    background-color: aqua;
+    color: black;
+}
+
+/************************************MEDIA QUERY*********************************/
+@media (max-width: 850px) {
+    .hero-text {
+        font-size: 40px;
+        max-width: 450px;
+        margin: auto;
+    }
+
+    .change {
+        padding: 10px 15px;
+        /* Smaller padding for smaller screens */
+        margin-top: 10px;
+        /* Less space above the button */
+        margin-bottom: 10px;
+        /* Less space below the button */
+    }
+}

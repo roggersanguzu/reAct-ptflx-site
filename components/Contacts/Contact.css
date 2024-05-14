@@ -1,0 +1,94 @@
+.contact {
+    display: flex;
+    align-items: center;
+    /* Correct property for vertical alignment */
+    justify-content: space-between;
+    margin: 80px auto;
+    max-width: 90%;
+    cursor: pointer;
+}
+
+.details {
+    flex-basis: 48%;
+    color: #676767;
+}
+
+.details h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: green;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.details h3 img {
+    width: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.details p {
+    max-width: 450px;
+    list-style: none;
+    /* Correct property for removing list style */
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.details ul li {
+    display: flex;
+    margin: 20px 0;
+    color: green;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.icons {
+    width: 50px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    display: block;
+    background: #EBECFE;
+    padding: 14px;
+    border: 0;
+    outline: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.contact span {
+    display: block;
+    margin: 20px auto;
+}
+
+/************************************MEDIA QUERY*********************************/
+@media (max-width: 700px) {
+    .contact {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: stretch;
+        /* Stretch items to fill the container */
+    }
+
+    .contact.details {
+        flex-basis: 100%;
+        /* Take full width */
+        padding: 20px;
+    }
+
+    .contact form input,
+    .contact form textarea {
+        margin-bottom: 10px;
+        /* Reduce spacing between form elements */
+    }
+}
